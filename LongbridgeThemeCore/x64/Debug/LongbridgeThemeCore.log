@@ -1,0 +1,5 @@
+﻿  LongbridgeThemeCore.cpp
+C:\Users\User\source\repos\Longhorn Theme Updater\LongbridgeThemeCore\LongbridgeThemeCore.cpp(154,1): warning C4717: 'themetool_signature_fix': recursive on all control paths, function will cause runtime stack overflow
+LongbridgeThemeCore.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library C:\Users\User\source\repos\Longhorn Theme Updater\x64\Debug\LongbridgeThemeCore.lib and object C:\Users\User\source\repos\Longhorn Theme Updater\x64\Debug\LongbridgeThemeCore.exp
+  LongbridgeThemeCore.vcxproj -> C:\Users\User\source\repos\Longhorn Theme Updater\x64\Debug\LongbridgeThemeCore.dll

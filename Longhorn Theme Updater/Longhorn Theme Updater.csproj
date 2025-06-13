@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Longhorn_Theme_Updater</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	
+	<PropertyGroup>
+		<PlatformTarget>x64</PlatformTarget>
+		<Copyright>Flarf, 2025</Copyright>
+		<PackageProjectUrl>ms-longhorn.me</PackageProjectUrl>
+		<Description>Windows theme manager made for Project Longbridge.</Description>
+		<FileVersion>1</FileVersion>
+		<ApplicationIcon>Windows Longhorn.ico</ApplicationIcon>
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <Content Include="Windows Longhorn.ico" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LongbridgeThemeCore\LongbridgeThemeCore.vcxproj" />
+  </ItemGroup>
+
+</Project>

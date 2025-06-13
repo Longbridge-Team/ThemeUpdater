@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longhorn Theme Updater", "Longhorn Theme Updater\Longhorn Theme Updater.csproj", "{8B64086B-9290-4D65-ABAF-80078A7FBB64}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D5A0070-F6D9-4AE7-9F51-B57FC9AB0E4F} = {2D5A0070-F6D9-4AE7-9F51-B57FC9AB0E4F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongbridgeThemeCore", "LongbridgeThemeCore\LongbridgeThemeCore.vcxproj", "{2D5A0070-F6D9-4AE7-9F51-B57FC9AB0E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B64086B-9290-4D65-ABAF-80078A7FBB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B64086B-9290-4D65-ABAF-80078A7FBB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B64086B-9290-4D65-ABAF-80078A7FBB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B64086B-9290-4D65-ABAF-80078A7FBB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5A0070-F6D9-4AE7-9F51-B57FC9AB0E4F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{2D5A0070-F6D9-4AE7-9F51-B57FC9AB0E4F}.Debug|Any CPU.Build.0 = Debug|x64
+		{2D5A0070-F6D9-4AE7-9F51-B57FC9AB0E4F}.Release|Any CPU.ActiveCfg = Release|x64
+		{2D5A0070-F6D9-4AE7-9F51-B57FC9AB0E4F}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F8F21CE-2BB8-4FE7-B2EC-6B8957BCCDE4}
+	EndGlobalSection
+EndGlobal
